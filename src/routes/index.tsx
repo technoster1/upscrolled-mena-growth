@@ -5,6 +5,8 @@ import { Hero } from "@/components/site/Hero";
 import { WhyNow } from "@/components/site/WhyNow";
 import { Thesis } from "@/components/site/Thesis";
 import { Markets } from "@/components/site/Markets";
+import { Creators } from "@/components/site/Creators";
+
 import { SectionPlaceholder } from "@/components/site/SectionPlaceholder";
 import { sources } from "@/data/sources";
 
@@ -37,15 +39,8 @@ function Index() {
         <Thesis />
 
         <Markets />
+        <Creators />
 
-
-        <SectionPlaceholder
-          id="creators"
-          index="02"
-          eyebrow="Creator strategy"
-          title="Start with trusted voices"
-          description="A researched shortlist of creator prospects, why each one fits, and how the first conversations would work."
-        />
 
         <SectionPlaceholder
           id="scroll-packs"
