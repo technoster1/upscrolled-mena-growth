@@ -4,9 +4,10 @@ import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
 import { WhyNow } from "@/components/site/WhyNow";
 import { Thesis } from "@/components/site/Thesis";
+import { Markets } from "@/components/site/Markets";
 import { SectionPlaceholder } from "@/components/site/SectionPlaceholder";
-import { markets } from "@/data/markets";
 import { sources } from "@/data/sources";
+
 
 const title = "UpScrolled MENA Growth Map — A strategic concept";
 const description =
