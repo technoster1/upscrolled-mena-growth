@@ -5,6 +5,8 @@ import { Hero } from "@/components/site/Hero";
 import { WhyNow } from "@/components/site/WhyNow";
 import { Thesis } from "@/components/site/Thesis";
 import { Markets } from "@/components/site/Markets";
+import { Creators } from "@/components/site/Creators";
+
 import { SectionPlaceholder } from "@/components/site/SectionPlaceholder";
 import { sources } from "@/data/sources";
 
