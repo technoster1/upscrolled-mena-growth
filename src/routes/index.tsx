@@ -37,15 +37,8 @@ function Index() {
         <Thesis />
 
         <Markets />
+        <Creators />
 
-
-        <SectionPlaceholder
-          id="creators"
-          index="02"
-          eyebrow="Creator strategy"
-          title="Start with trusted voices"
-          description="A researched shortlist of creator prospects, why each one fits, and how the first conversations would work."
-        />
 
         <SectionPlaceholder
           id="scroll-packs"
