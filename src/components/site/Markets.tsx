@@ -1,10 +1,13 @@
 import { useState } from "react";
 
-import { comparisonMatrix, markets, marketsMethodologyNote } from "@/data/markets";
+import { comparisonMatrix, markets, marketsMethodologyNote, type Market } from "@/data/markets";
+
+const defaultMarket = markets[0] as Market;
 
 export function Markets() {
-  const [activeId, setActiveId] = useState(markets[0].id);
-  const market = markets.find((m) => m.id === activeId) ?? markets[0];
+  const [activeId, setActiveId] = useState(defaultMarket.id);
+  const market: Market = markets.find((m) => m.id === activeId) ?? defaultMarket;
+
 
   return (
     <section id="markets" className="border-b border-border">
