@@ -36,24 +36,8 @@ function Index() {
         <WhyNow />
         <Thesis />
 
-        <SectionPlaceholder
-          id="markets"
-          index="01"
-          eyebrow="Markets"
-          title="Four priority markets"
-          description="Where community density can realistically be built first, and what makes each market distinct."
-        >
-          <ul className="grid gap-px bg-border sm:grid-cols-2">
-            {markets.map((market) => (
-              <li key={market.id} className="bg-background px-5 py-5">
-                <p className="font-editorial text-xl">{market.name}</p>
-                <p className="mt-1 text-[11px] uppercase tracking-[0.14em] text-muted-foreground">
-                  {market.country}
-                </p>
-              </li>
-            ))}
-          </ul>
-        </SectionPlaceholder>
+        <Markets />
+
 
         <SectionPlaceholder
           id="creators"
