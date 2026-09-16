@@ -206,15 +206,12 @@ export function Closing() {
             Connect with Adnan
           </a>
           <a
-            href="mailto:"
+            href="mailto:adnan_aklouk@hotmail.com"
             className="border border-background/25 px-5 py-3 text-[13px] font-medium text-background/80 transition-colors hover:border-background/60 hover:text-background"
-            onClick={(event) => event.preventDefault()}
-            title="Email address not configured yet"
           >
             Email Adnan
           </a>
         </div>
-        <p className="mt-4 text-[11px] text-background/35">Email CTA is intentionally inactive until an address is added.</p>
       </div>
     </section>
   );
